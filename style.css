@@ -1,0 +1,137 @@
+body {
+  margin: 0px;
+  font-family: 'Arimo', sans-serif;
+}
+b {
+  font-size: 26px;
+}
+.DLT{
+  position: absolute;
+  width: 100px;
+  float: left;
+  top: 15px;
+  left: 100px;
+}
+ul{
+  position: absolute;
+  float: left;
+  right: 100px;
+}
+ul li{
+  height: 31.3px;
+  list-style: none;
+  float: left;
+  padding-right: 40px;
+  text-align: center;
+}
+.seccion1{
+  position: relative;
+  background-image: url("images/bg.jpeg");
+  color: white;
+  width: 100%;
+  height: 400px;
+}
+.seccion1 h1{
+  width: 500px;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.botones{
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  width: auto;
+  height: 100px;
+  left: 50%;
+  top: 65%;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.azul{
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  background-color: blue;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+#verde{
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  background-color: green;
+  border-radius: 10px;
+  float: left;
+}
+.seccion1 p{
+  clear: left;
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.seccion2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.seccion2 img {
+    max-height: 400px;
+    max-width: 400px;
+}
+.seccion3 {
+    background-color: #EBEBEB;
+    text-align: center;
+    padding: 50px;
+}
+
+.seccion3 h4 {
+
+  color: white;
+  left: 45%;
+  display: block;
+}
+#p_s3 {
+    margin-top: 0;
+}
+.seccion4 {
+    overflow: hidden;
+    padding: 94px 0 89px 0;
+    margin: 0px;
+}
+
+.seccion4 .left {
+    width: 300px;
+    float: left;
+}
+.seccion4 .right {
+    width: 300px;
+    float: left;
+}
+.centro{
+  background-color: white;
+  width: 600px;
+  height: 181px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.clearfix {
+    clear: both;
+    position: relative;
+    width: 100%;
+}
+.foot {
+    background-color: black;
+    color: white;
+}
+.foot p {
+    padding: 30px 0 30px 0;
+    margin-left: 15%;
+}
